@@ -1,5 +1,8 @@
 public class Rectangle extends Shape{
-    public Rectangle(){
-    super("Rectangle");
-}
+    public static final String shape = "Rectangle";
+    @Override
+    public String getName(){
+        return shape;
+    }
+
 }

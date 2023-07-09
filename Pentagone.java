@@ -1,5 +1,8 @@
 public class Pentagone extends Shape {
-    public Pentagone(){
-        super("Pentagone");
+    public static final String shape = "Pentagone";
+    @Override
+    public String getName(){
+        return shape;
     }
+
 }

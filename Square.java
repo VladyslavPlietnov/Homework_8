@@ -1,5 +1,8 @@
 public class Square extends Shape{
-    public Square(){
-        super("Square");
+    public static final String shape = "Square";
+    @Override
+    public String getName(){
+        return shape;
     }
+
 }

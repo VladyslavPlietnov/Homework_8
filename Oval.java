@@ -1,5 +1,8 @@
 public class Oval extends Shape{
-    public Oval(){
-        super("Oval");
+    public static final String shape = "Oval";
+    @Override
+    public String getName(){
+        return shape;
     }
+
 }

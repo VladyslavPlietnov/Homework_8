@@ -1,5 +1,7 @@
 public class Circle extends Shape{
-    public Circle(){
-        super("Circle");
+    public static final String shape = "Circle";
+    @Override
+    public String getName(){
+        return shape;
     }
 }
