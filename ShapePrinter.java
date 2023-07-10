@@ -1,4 +1,4 @@
-public class Test {
+public class ShapePrinter {
     public static void printName(Shape shape){
         System.out.println(shape.getName());
     }
